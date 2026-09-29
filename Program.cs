@@ -19,7 +19,5 @@ class Program
         PersonStruct p3 = new PersonStruct("Ted", 23);
         p3.Age = 30;
         Console.WriteLine(p3);
-
-        // p1.Age = 30;   // ошибка компиляции: у record свойство только для инициализации (init)
     }
 }
